@@ -1,0 +1,123 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar
+*.tar.*
+*.rar
+*.7z
+
+# Folder view configuration files
+.DS_Store
+Desktop.ini
+
+# Thumbnail cache files
+._*
+Thumbs.db
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+######################
+######  Gradle  ######
+######################
+
+.gradle
+build/
+subprojects/*/build
+subprojects/docs/src/samples/**/build
+subprojects/docs/src/snippets/**/build
+subprojects/internal-android-performance-testing/build-android-libs
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+# ANTLR Plugin
+**/.antlr/
+
+######################
+###### Intellij ######
+######################
+
+# Project config
+**/.idea/
+*.iml
+modules.xml
+*.ipr
+*.iws
+
+# CMake
+cmake-build-debug/
+
+# mpeltonen/sbt-idea plugin
+**/.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+######################
+######   Maven  ######
+######################
+
+**/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
+!/.mvn/wrapper/maven-wrapper.jar
+
+###############################
+######  Project spcific  ######
+###############################
+
+# Ignore generated sources because they can be generated on my own
+/generated/
+/generated-src/
+/run/
+/out/
+
+# Ignore UML Diagrams
+*.uml
+
+# Ignore Android Dex files
+*.dex
+
+# Do not ignore dependency libs
+!/compile-lib/*.jar
+!/lib/*.jar
